@@ -1,0 +1,14 @@
+<settings>
+        <servers>
+                <server>
+                        <id>affilio-release</id>
+                        <username>${env.MAVEN_AFFILIO_KEY}</username>
+                        <password>${env.MAVEN_AFFILIO_SECRET}</password>
+                </server>
+                <server>
+                        <id>affilio-snapshot</id>
+                        <username>${env.MAVEN_AFFILIO_KEY}</username>
+                        <password>${env.MAVEN_AFFILIO_SECRET}</password>
+                </server>
+         </servers>
+</settings>
